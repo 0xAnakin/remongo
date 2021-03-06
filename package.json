@@ -1,6 +1,6 @@
 {
   "name": "remongo",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Simple mongoose redis caching",
   "author": "Anakin Skywlaker <the.syd.619@gmail.com>",
   "main": "./src/index",
