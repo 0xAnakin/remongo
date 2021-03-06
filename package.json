@@ -5,9 +5,7 @@
   "author": "Anakin Skywlaker <the.syd.619@gmail.com>",
   "main": "./src/index",
   "scripts": {
-    "test": "mocha --exit",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "test": "mocha --exit"
   },
   "repository": {
     "type": "git",
