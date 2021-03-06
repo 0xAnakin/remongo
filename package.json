@@ -32,8 +32,7 @@
   },
   "dependencies": {
     "async": "^2.6.2",
-    "jsosort": "0.0.0",
-    "snyk": "^1.339.2"
+    "jsosort": "0.0.0"
   },
   "peerDependencies": {
     "redis": "5.x",
