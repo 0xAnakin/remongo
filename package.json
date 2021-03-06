@@ -1,0 +1,46 @@
+{
+  "name": "remongo",
+  "version": "2.0.4",
+  "description": "Simple mongoose redis caching",
+  "author": "Anakin Skywlaker <the.syd.619@gmail.com>",
+  "main": "./src/index",
+  "scripts": {
+    "test": "mocha --exit",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syd619/remongo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/syd619/remongo/issues"
+  },
+  "homepage": "https://github.com/syd619/remongo",
+  "keywords": [
+    "cache",
+    "caching",
+    "mongoose",
+    "redis"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^8.3.1",
+    "pre-commit": "1.2.2",
+    "redis": "^2.8.0",
+    "redis-clustr": "^1.6.0"
+  },
+  "dependencies": {
+    "async": "^2.6.2",
+    "jsosort": "0.0.0",
+    "snyk": "^1.339.2"
+  },
+  "peerDependencies": {
+    "redis": "5.x",
+    "node": "10.x"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "snyk": true
+}
