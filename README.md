@@ -1,6 +1,6 @@
 # remongo
 
-[![Build Status](https://travis-ci.org/syd619/remongo.svg?branch=master)](https://travis-ci.org/syd619/remongo)
+[![Build Status](https://travis-ci.org/syd619/remongo.svg?branch=main)](https://travis-ci.org/github/syd619/remongo)
 [![npm version](https://badge.fury.io/js/remongo.svg)](https://badge.fury.io/js/remongo)
 [![Known Vulnerabilities](https://snyk.io/test/github/syd619/remongo/badge.svg?targetFile=package.json)](https://snyk.io/test/github/syd619/remongo?targetFile=package.json)
 
