@@ -1,8 +1,8 @@
 {
   "name": "remongo",
-  "version": "2.0.5",
+  "version": "3.0.0",
   "description": "Simple mongoose redis caching",
-  "author": "Anakin Skywlaker <the.syd.619@gmail.com>",
+  "author": "Anakin Skywlaker",
   "main": "./src/index",
   "scripts": {
     "test": "mocha --exit"
@@ -28,16 +28,16 @@
     "redis": "^2.8.0",
     "redis-clustr": "^1.6.0"
   },
-  "dependencies": {
-    "async": "^2.6.2",
-    "jsosort": "0.0.0"
-  },
   "peerDependencies": {
-    "redis": "5.x",
-    "node": "10.x"
+    "node": "10.x",
+    "redis": "5.x"
   },
   "pre-commit": [
     "test"
   ],
-  "snyk": true
+  "snyk": true,
+  "dependencies": {
+    "async": "^3.2.4",
+    "jsosort": "^0.0.0"
+  }
 }
