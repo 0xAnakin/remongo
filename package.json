@@ -1,6 +1,6 @@
 {
   "name": "remongo",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Simple mongoose redis caching",
   "author": "Anakin Skywlaker",
   "main": "./src/index",
@@ -27,10 +27,6 @@
     "pre-commit": "1.2.2",
     "redis": "^2.8.0",
     "redis-clustr": "^1.6.0"
-  },
-  "peerDependencies": {
-    "node": "10.x",
-    "redis": "5.x"
   },
   "pre-commit": [
     "test"
